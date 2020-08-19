@@ -647,6 +647,19 @@ module.exports = {
       'tract',
     ],
   },
+//  'mMEDIAN-HOME-PRICE': {
+//    'metric': 'MEDIAN-HOME-PRICE',
+//    'category': 'Housing',
+//    'title': 'Median Home Price',
+//    'title_es': 'Mediana del Valor de Viviendas',
+//    'prefix': '$',
+//    'decimals': 0,
+//    'type': 'weighted',
+//    'geographies': [
+//      'blockgroup',
+//      'tract',
+//    ],
+//  },
   'mMEDINC': {
     'metric': 'MEDINC',
     'accuracy': 'true',
@@ -1291,7 +1304,7 @@ module.exports = {
     'metric': 'SWTORD',
     'category': 'Infrastructure and Amenities',
     'suffix': '%',
-    'title': 'Sidewalks to Roadways',
+    'title': 'Sidewalk Coverage',
     'title_es': 'Aceras a carreteras',
     'label': 'ratio of sidewalks to roadways',
     'decimals': 0,
